@@ -1,0 +1,65 @@
+Description,qvalue,Count,Class,Group
+transcription cofactor binding,1.94,5,MF,Down
+Ras GTPase binding,1.95,14,MF,Down
+BH domain binding,1.96,3,MF,Down
+"DNA-binding transcription activator activity, RNA polymerase II-specific",1.97,14,MF,Down
+small GTPase binding,1.98,14,MF,Down
+regulation of transporter activity,2.05,36,BP,Up
+positive regulation of neurogenesis,2.06,53,BP,Up
+histone acetylation,2.07,24,BP,Up
+integral component of postsynaptic membrane,2.08,18,CC,Up
+skeletal system morphogenesis,2.09,32,BP,Up
+regulation of synaptic plasticity,2.1,27,BP,Up
+stem cell differentiation,2.11,34,BP,Up
+regulation of synapse organization,2.12,30,BP,Up
+pattern specification process,2.14,51,BP,Up
+central nervous system neuron differentiation,2.15,27,BP,Up
+perinuclear endoplasmic reticulum,2.16,7,CC,Up
+response to epinephrine,2.21,7,BP,Up
+regulation of neuron projection development,2.22,56,BP,Up
+in utero embryonic development,2.23,45,BP,Up
+positive regulation of chromatin organization,2.24,19,BP,Up
+regionalization,2.241,43,BP,Up
+intrinsic component of postsynaptic membrane,2.25,19,CC,Up
+regulation of calcium ion-dependent exocytosis,2.251,20,BP,Up
+calcium channel complex,2.26,13,CC,Up
+regulation of synaptic vesicle cycle,2.261,20,BP,Up
+intrinsic component of presynaptic membrane,2.33,15,CC,Up
+cation channel complex,2.37,29,CC,Up
+PML body,2.38,17,CC,Up
+transport vesicle,2.39,44,CC,Up
+exocytic vesicle,2.41,28,CC,Up
+positive regulation of histone modification,2.47,18,BP,Up
+postsynaptic specialization,2.49,41,CC,Up
+cellular response to steroid hormone stimulus,2.531,35,BP,Up
+phosphatidylinositol phosphorylation,2.53,13,BP,Up
+protein acylation,2.57,35,BP,Up
+voltage-gated calcium channel complex,2.66,11,CC,Up
+negative regulation of nervous system development,2.78,42,BP,Up
+postsynaptic membrane,2.83,40,CC,Up
+regulation of neurotransmitter levels,2.86,46,BP,Up
+phosphatidylinositol 3-kinase complex,2.87,9,CC,Up
+negative chemotaxis,2.877,13,BP,Up
+synaptic vesicle,2.88,28,CC,Up
+integral component of synaptic membrane,2.89,24,CC,Up
+intrinsic component of synaptic membrane,2.97,26,CC,Up
+transcriptional repressor complex,2.98,17,CC,Up
+postsynaptic density,2.99,41,CC,Up
+regulation of chromatin organization,3.02,30,BP,Up
+regulation of neurotransmitter transport,3.03,25,BP,Up
+covalent chromatin modification,3.04,58,BP,Up
+histone modification,3.05,56,BP,Up
+lipid phosphorylation,3.06,16,BP,Up
+regulation of histone modification,3.08,26,BP,Up
+synapse organization,3.24,53,BP,Up
+synaptic membrane,3.25,52,CC,Up
+asymmetric synapse,3.26,43,CC,Up
+post-embryonic development,3.28,20,BP,Up
+histone binding,3.34,33,MF,Up
+signal release,3.44,59,BP,Up
+neurotransmitter transport,3.49,41,BP,Up
+neuron to neuron synapse,3.5,46,CC,Up
+neuronal cell body,3.6,60,CC,Up
+presynapse,4.17,62,CC,Up
+modulation of chemical synaptic transmission,5.16,62,BP,Up
+regulation of trans-synaptic signaling,5.17,62,BP,Up
