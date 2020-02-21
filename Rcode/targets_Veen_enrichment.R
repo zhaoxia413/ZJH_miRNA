@@ -43,6 +43,7 @@ names(miRDB_list1)
 veen_list<-list()
 venn.plot<-list()
 overlap<-list()
+overlap_genes<-list()
 for (i in seq(length(miRWalk_list1))) {
         overlap[[i]]<-intersect(intersect(miRWalk_list1[[i]]$target,TargetScan_list[[i]]$target),miRDB_list1[[i]]$target)
         names(overlap)[i]<-names(miRWalk_list1)[i]
@@ -54,6 +55,8 @@ for (i in seq(length(miRWalk_list1))) {
                            alpha=c(0.5,0.5,0.5), cex = 2, 
                            cat.fontface=4,  
                            main=paste0("overlap of targets ( ",names(miRWalk_list1)[i]," )"))
+ overlap_genes[[i]]<-data.frame(miRNA=rep(names(overlap)[i],length(overlap[[i]])),
+                                target=overlap[[i]])
  grid.newpage()
  pdf(paste0("../ZJH_miRNA/results/veen_",names(miRWalk_list1)[i],".pdf"))
  grid.draw(venn.plot[[i]])
@@ -61,9 +64,11 @@ for (i in seq(length(miRWalk_list1))) {
  png(paste0("../ZJH_miRNA/results/veen_",names(miRWalk_list1)[i],".png"))          
  grid.draw(venn.plot[[i]])
  dev.off()
- }
+}
+overlap_data<-bind_rows(overlap_genes)
 overlap_res<-data.frame(miRNA=names(overlap),overlap_num=sapply(overlap, length))
-write.csv(overlap_res,"../ZJH_miRNA/results/overlap_3database_table.csv",row.names = F)
+write.csv(overlap_res,"../ZJH_miRNA/results/overlap_3database_summary.csv",row.names = F)
+write.csv(overlap_data,"../ZJH_miRNA/results/overlap_3database_genes.csv",row.names = F)
 #enrichment
 down_miRNA<-tar_data%>%subset(.,log2FC<0)
 up_miRNA<-tar_data%>%subset(.,log2FC>0)
